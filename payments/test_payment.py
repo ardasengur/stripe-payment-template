@@ -2,8 +2,7 @@ import requests
 
 url = "http://localhost:8000/pay"
 data = {
-    "amount": 5000, 
-    "currency": "usd",
+    "product_id": "prod_SrgeBosClUdVO1",
     "source": "tok_visa"
 }
 
